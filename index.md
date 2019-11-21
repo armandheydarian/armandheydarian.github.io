@@ -32,8 +32,8 @@
 
         function Matrix(options) {
             var margin = {top: 50, right: 50, bottom: 100, left: 100},
-                width = 728,
-                height = 728,
+                width = 628,
+                height = 628,
                 data = options.data,
                 container = options.container,
                 labelsData = options.labels,
