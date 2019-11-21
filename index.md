@@ -1,7 +1,4 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Adult income</title>
+
 
     <style>
         #chart_gender {
@@ -721,9 +718,7 @@
 
         });
     </script>
-</head>
 
-<body class="py-4">
 <div class="container">
 
     <div class="row">
@@ -772,6 +767,3 @@
     </div>
 </div> <!-- /container -->
 
-
-</body>
-</html>
