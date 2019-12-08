@@ -434,7 +434,7 @@
                         "Prof-school": 0.0136986301369863
                     }
                 };
-                // -- init and configure heatmap
+                // -- initialize and configure heatmap
                 let correlationMatrix = data.matrix;
                 let labels = data.labels;
                 Matrix({
@@ -444,7 +444,7 @@
                     start_color: '#ffffff',
                     end_color: '#3498db'
                 });
-                // -- init and configure chart for gender
+                // -- initialize and configure chart for gender
                 var chartGender = document.getElementById('chart_gender');
                 var barChartGender = new Chart(chartGender, {
                     type: 'bar',
@@ -480,7 +480,7 @@
                         }]
                     },
                 });
-                // --  init and configure chart for marital status
+                // --  initialize and configure chart for marital status
                 var chartMaritalStatus = document.getElementById('chart_marital_status');
                 var barChartMaritalStatus = new Chart(chartMaritalStatus, {
                     type: 'bar',
@@ -526,7 +526,7 @@
                         }]
                     },
                 });
-                // --  init and configure chart for race
+                // --  initialize and configure chart for race
                 var chartRace = document.getElementById('chart_race');
                 var barChartRace = new Chart(chartRace, {
                     type: 'bar',
@@ -568,7 +568,7 @@
                         }]
                     },
                 });
-                // --  init and configure chart for chart_occupation
+                // --  initialize and configure chart for chart_occupation
                 var chartOccupation = document.getElementById('chart_occupation');
                 var barChartOccupation = new Chart(chartOccupation, {
                     type: 'bar',
@@ -608,7 +608,7 @@
                         }]
                     }
                 });
-                // --  init and configure chart for education
+                // --  initialize and configure chart for education
                 var chartEducation = document.getElementById('chart_education');
                 var educationLevels = Object.keys(data.education);
                 var barChartEducation = new Chart(chartEducation, {
